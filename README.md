@@ -1,2 +1,2 @@
 # UPO-Reti_1
-Progetto di reti 1 per l'università
+Progetto universitario del corso di reti 1 (A.A 2021-2022)

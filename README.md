@@ -10,3 +10,5 @@ I programmi supportano al massimo stringhe di 256 caratteri.
 
 Non ho testato tutte le varie eccezioni dato che i programmi sono solo la base da cui partire per sviluppare il progetto dell'anno accademico 2022-2023.
 Inoltre, attualmente, la mia abilità nel programmare fa abbastanza pena, quindi se i programmi vanno in segmentation fault non c'è da meravigliarsi.
+
+Nei commit precedenti potete trovare i progetti dell'anno scorso, se vi interessa.

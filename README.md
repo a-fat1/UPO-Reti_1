@@ -4,11 +4,9 @@ Base del progetto universitario del corso di Reti 1.
 Le applicazioni, sviluppate nel linguaggio C, consistono in un client ed un server che si scambiano messaggi.
 Esse vengono compilate ed eseguite da terminale (Linux o MacOS).
 
-Il server ha solo una funzione, ovvero restituisce tutti i messaggi che il client invia.
-Il client continua ad inviare i messaggi fino a quando non viene scritto "QUIT\n", oppure quando riceve "ERR <messaggio>\n".
-I programmi supportano al massimo stringhe di 256 caratteri.
+Il progetto di quest'anno è un semplice calcolatore di media e varianza campionaria. Il client invia tramite uno o più messaggi dei numeri interi positivi su cui eseguire le operazioni, e quando il server gli riceve calcola e memorizza la media e la varianza dei campioni. Una volta che il client inserisce il carattere '0', il server invia la media e la varianza che ha calcolato e chiude la connessione.
 
-Non ho testato tutte le varie eccezioni dato che i programmi sono solo la base da cui partire per sviluppare il progetto dell'anno accademico 2022-2023.
-Inoltre, attualmente, la mia abilità nel programmare fa abbastanza pena, quindi se i programmi vanno in segmentation fault non c'è da meravigliarsi.
+Nell'implementazione del mio server ho aggiunto alcune operazioni non strettamente necessarie, come l'orario locale (stampato a terminale quando si avvia il server, e inviato come messaggio di benvenuto al client), le operazioni del server stampate a terminale, e alcuni controlli di overflow/underflow nel caso l'utente inserisca numeri troppo grandi.
 
-Nei commit precedenti è possibile trovare il progetto dell'anno scorso.
+Una volta che avrò superato l'esame pubblicherò il codice dei programmi.
+Nel frattempo, nei commit precedenti, è possibile trovare il progetto dell'anno scorso.
